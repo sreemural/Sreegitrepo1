@@ -4,7 +4,7 @@ node{
         git 'https://github.com/sreemural/Sreegitrepo1.git'
     }
 
-     stage('Compile-packaget'){
+     stage('Compile-package'){
         sh 'mvn package'
     }
 }
